@@ -1,0 +1,413 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header{
+    height:80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.header a:hover, .search:hover{
+    color:#FF671F;
+}
+
+.logo{
+    background-image: url(images/logo.png);
+    height:80px;
+    width:150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex:1;
+    margin-left:40px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex:2.5;
+}
+
+.signin-button{
+    padding:4px;
+    width:84px;
+    height:38px;
+    font-size: 14px;
+    background-color: #06038D;
+    color: white;
+    border-radius:20px;
+    border:none;
+    transition:120ms ease-in;
+}
+
+.signin-button:hover{
+    background-color:#FF671F;
+}
+
+.banner{
+    height:600px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/bannerimage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.banner-text > h2{
+    color: white;
+    width:800px;
+    text-align: center;
+    font-size: 88px;
+    font-weight: bold;
+}
+
+.banner-text > p{
+    color: white;
+    text-align:center;
+    margin-top:15px;
+    font-size:24px;
+    font-weight: 600;
+}
+
+.booknow{
+    margin:28px;
+    width:140px;
+    height:60px;
+    font-size: 16px;
+    font-weight:bold;
+    border-radius: 100px;
+    background-color: #FF671F;
+    border:none;
+    color: white;
+    transition: 280ms ease-in-out;
+}
+
+.booknow:hover{
+    letter-spacing: 3px;
+    width:160px;
+}
+
+.aboutindia{
+    margin:80px 150px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.aboutimg{
+    width:500px;
+    background-image: url(images/aboutimg.jpg);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.abouttxt{
+    flex:1;
+    margin-left:30px;
+    margin-right:40px;
+    text-align: justify;
+}
+
+.abouttxt h2{
+    font-size:36px;
+    font-weight:bolder;
+    margin-bottom:10px;
+}
+
+.abouttxt p{
+    line-height:23px;    
+}
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap:wrap;
+}
+
+.text-head{
+    text-align: center;
+    margin-top: 120px;
+    font-size:40px;
+}
+
+.box{
+    margin-top:28px;
+    background-color: lightpink;
+    width: 480px;
+    height:600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transition: 200ms ease-in-out;
+    border-radius: 15px;;
+}
+
+.box h3{
+    color: rgba(255, 255, 255, 0.57);
+    font-size: 40px;
+}
+
+.box p{
+    color: rgba(255, 255, 255, 0.847);
+    padding: 10px 40px 40px 40px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.box:hover{
+    scale:1.04;
+}
+
+.box1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/tajmahal.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.box2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/goldentemple.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/redfort.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/mysorepalace.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.box5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/varanasi.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box6{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/kerela.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box7{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/meenakshitemple.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box7 h3{
+    font-size: 36px;
+}
+
+.box8{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/kanha.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box9{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/goa.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.toptrains{
+    background-color: #06038D;
+    margin-top:80px;
+}
+
+.toptrains h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top:20px;
+    padding-bottom: 40px;
+}
+
+.traincontent{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.trainimg{
+    width:320px;
+    height:320px;
+    border-radius: 50%;
+    border: 4px solid #ff661fcf;
+    transition: 150ms ease-in-out;
+    margin-bottom:10px;
+}
+
+.trainimg:hover{
+    scale:1.03;
+}
+
+.trainalign p{
+    text-align: center;
+    padding-top:8px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.trainimg1{
+    background-image: url(images/maharajaexp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.trainimg2{
+    background-image: url(images/deccan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.trainimg3{
+    background-image: url(images/goldenchariot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.trainimg4{
+    background-image: url(images/palaceonwheels.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.trainalign{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:50px;
+}
+
+.advbanner{
+    margin-top:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannerimg{
+    background-image:url(images/travelbanner.jpg);
+    background-size: cover;
+    width:600px;
+    height:360px;
+    float:right;
+}
+.bannertxt{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right:40px;
+}
+.bannertxt h3{
+    font-size: 46px;
+    font-weight: bold;
+}
+.bannertxt p{
+    padding-top:20px;
+    font-size: 17px;
+}
+.bannertxt button{
+    width:160px;
+    height:60px;
+    margin-top:60px;
+    border:none;
+    background-color: #FF671F;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 40px;
+    transition: 280ms ease-in-out;
+}
+.bannertxt button:hover{
+    letter-spacing: 3px;
+    width:180px;
+}
+
+
+
+footer{
+    background-color: #2A324B;
+    margin-top:80px;
+    color: white;
+    font-weight: 100;
+}
+
+.links{
+    padding-top:40px;
+    display:flex;
+    justify-content: space-around;
+    line-height: 28px;
+}
+
+.list h3{
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.list ul li{
+    list-style: none;
+    color:rgb(233, 231, 231);
+}
+.list ul li:hover{
+    text-decoration: underline;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social i{
+    margin:40px 15px;
+}
+footer p{
+    text-align: center;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+
+#facebook:hover{
+    color: #3b5998;
+}
+#instagram:hover{
+    color: #d62976;
+}
+#twitter:hover{
+    color: black;
+}
+#youtube:hover{
+    color: #FF0000;
+}
+#linkedin:hover{
+    color: #0077B5;
+}
